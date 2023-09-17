@@ -1,0 +1,29 @@
+
+
+IN Opreator- let you specify multiple values in the WHERE clauses
+BETWEEN Operator - slelect values within a given ranges , this value can be numbers, text or data.
+LIKE Operator - is used to filter data based on pattern matching
+
+
+IN Operator
+
+SELECT *
+FROM table_name
+WHERE column_name 
+IN ( value1 , value2 , ...);
+    
+
+BETWEEN Operator
+
+SELECT * 
+FROM table_name
+WHERE column_name
+BETWEEN value1 and value2;
+        start      end
+
+LIKE Operator
+
+SELECT *
+FROM table_name
+WHERE column_ name
+LIKE pattern;
