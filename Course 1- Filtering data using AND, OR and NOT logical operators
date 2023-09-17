@@ -1,0 +1,42 @@
+
+Where Clause
+
+SELECT *
+FROM table_name
+WHERE condition...,
+
+Logical Operators - AND ,OR, NOT
+
+
+
+AND
+AnD Operator
+
+SELECT *
+FROM table_name
+WHERE condition1 AND condition2 AND condition3;
+
+Example>> mysql> SELECT * customer_purchases WHERE Purchases > 2000 AND Location = 'Gila Country';
+
+OR
+OR Operator
+
+SELECT *
+FROM table_name
+WHERE condition1 OR condition2 OR condition 3...;
+
+Example>  mysql> SELECT * FROM customer_purcahses WHERE location = 'Gila County' OR location = 'Santa County';
+
+NOT
+NOT Operator 
+
+SELECT * 
+FROM table_name
+WHERE NOT condition;
+
+Example> SELECT * FROM customer_phuchases WHERE NOT ( location = 'Gila County' OR location = ' Santa Cruz County ');
+
+
+
+
+
